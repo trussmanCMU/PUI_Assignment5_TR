@@ -1,0 +1,77 @@
+/* This is where free stuff goes */
+.top_panner{
+    background-color: #C4C4C4;
+    display:flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+body{
+    margin: 0;
+}
+.search{
+    border: 0;
+    border-bottom: 1px solid black;
+    outline: 0;
+    
+}
+/* navigation menu: pillow types, stuffing types, colors */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search_icon{
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+}
+/* a single pillow */
+.item{
+    padding: 20px;
+}
+/* list of pillows */
+.items{
+    width: 100vw;
+    overflow: auto;
+
+}
+/* navigation menu: pillow types, stuffing types, colors */
+.Navigation{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 120px;
+    padding-right: 200px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-family: Optima;
+    color: RGBA(45,29,10,.74);
+}
+/* button to subscribe to newsletter */
+.Subscription{
+    padding: 120px;
+    text-align: center;
+    background-color: #FFDEAD;
+}
+/* columns of links in footer */
+
+.Links{
+    display:flex; justify-content: space-around;
+
+}
+.Footer{
+    display: flex; justify-content: space-between;
+    padding-left: 40px; padding-right: 40px; padding-bottom: 30px;
+}
+/* colors */
+.AfterSchool{
+    background-image: url("AfterSchoolSpecialColor.png");
+}
+.MorningHaze{
+    background-image: url("MorningHazeColor.png");
+}
+.CozyDenim{
+    background-image: url("CozyDenimColor.png");
+}
+.RainyDay{
+    background-image: url("RainyDayColor.png");
+}
